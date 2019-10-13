@@ -9,10 +9,10 @@ Pulsesensor
 
 ### Prerequisites
 
-Pulsesensor playground.
-esp8266 or esp32
-OLED screen
-USB cable
+* Pulsesensor playground.
+* esp8266 or esp32
+* OLED screen
+* USB cable
 
 ### Schematic
 
