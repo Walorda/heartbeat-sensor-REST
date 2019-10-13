@@ -9,18 +9,25 @@ Pulsesensor
 
 ### Prerequisites
 
-* Pulsesensor playground.
+* Pulsesensor
 * esp8266 or esp32
 * OLED screen
-* USB cable
+* Speaker
+* PlatformIO or arduino ide
+* PostgreSQL running
+* npm
 
 ### Schematic
 
 ![alt text](https://github.com/Walorda/heartbeat-sensor-REST/blob/master/schematic.jpg)
 
-### Installing
+### Running
 
-
+```
+git clone https://github.com/Walorda/heartbeat-sensor-REST
+cd heartbeat-sensor-REST
+npm start
+```
 
 End with an example of getting some data out of the system or using it for a little demo
 
