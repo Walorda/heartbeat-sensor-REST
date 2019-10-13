@@ -16,7 +16,7 @@ USB cable
 
 ### Schematic
 
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![alt text](https://github.com/Walorda/heartbeat-sensor-REST/blob/master/schematic.jpg)
 
 ### Installing
 
