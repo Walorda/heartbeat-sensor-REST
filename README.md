@@ -26,14 +26,33 @@ Pulsesensor
 ### Architect
 ![alt text](https://github.com/Walorda/heartbeat-sensor-REST/blob/master/architect.png)
 
-
-### Running
-
+### Admin guide
+* To set up the server first clone this project, command line:
 ```
 git clone https://github.com/Walorda/heartbeat-sensor-REST
 cd heartbeat-sensor-REST
 npm start
 ```
+
+* after you have pressed npm start the server should have started with the ip address and port.
+* In the main.cpp if you want to change the server location ip address you have to change these 2 lines:
+```
+const char *http_site = "http://jsonplaceholder.typicode.com/users";
+const int http_port = 9000;
+```
+* Always be sure you changed the network ssid and password with these lines:
+```
+const char *ssid = "IOTTEST";
+const char *password = "TESTIOTIOT"; 
+```
+
+* Now follow the schematics and build and upload the code to the esp8266 and it will work.
+
+
+
+### Running
+
+
 
 End with an example of getting some data out of the system or using it for a little demo
 
