@@ -24,7 +24,7 @@ Pulsesensor
 
 
 ### Architect
-![alt text](https://github.com/Walorda/heartbeat-sensor-REST/blob/master/architect.jpg)
+![alt text](https://github.com/Walorda/heartbeat-sensor-REST/blob/master/architect.png)
 
 
 ### Running
