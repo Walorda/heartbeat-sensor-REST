@@ -6,13 +6,14 @@ One Paragraph of project description goes here
 ## Getting Started
 
 Pulsesensor 
-
-### Prerequisites
-
-* Pulsesensor
+### Billing materials
 * esp8266 or esp32
 * OLED screen
 * Speaker
+* Pulsesensor from playground.com
+
+### Prerequisites
+
 * PlatformIO or arduino ide
 * PostgreSQL running
 * npm
@@ -20,6 +21,11 @@ Pulsesensor
 ### Schematic
 
 ![alt text](https://github.com/Walorda/heartbeat-sensor-REST/blob/master/schematic.jpg)
+
+
+### Architect
+![alt text](https://github.com/Walorda/heartbeat-sensor-REST/blob/master/architect.jpg)
+
 
 ### Running
 
