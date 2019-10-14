@@ -34,19 +34,21 @@ cd heartbeat-sensor-REST
 npm start
 ```
 
+* Import the database file into the pgAdmin console
+
 * after you have pressed npm start the server should have started with the ip address and port.
 * In the main.cpp if you want to change the server location ip address you have to change these 2 lines:
 ```
 const char *http_site = "http://jsonplaceholder.typicode.com/users";
 const int http_port = 9000;
 ```
-* Always be sure you changed the network ssid and password with these lines:
+* Always be sure you change the network ssid and password with these lines:
 ```
 const char *ssid = "IOTTEST";
 const char *password = "TESTIOTIOT"; 
 ```
 
-* Now follow the schematics and build and upload the code to the esp8266 and it will work.
+* Now follow the schematics and build and upload the code to the esp8266 and it should work if done correctly.
 
 
 
